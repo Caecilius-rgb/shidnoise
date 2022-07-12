@@ -15,7 +15,7 @@ client.on('interactionCreate', async interaction => {
 
 	const { commandName } = interaction;
 
-	switch(commandName) {
+	switch(commandName) { //commands
 		case 'ping':
 			await interaction.reply('Pong!');
 			break;
